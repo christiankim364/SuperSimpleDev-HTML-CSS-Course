@@ -1,0 +1,57 @@
+p{ /* Applies font-family Roboto to all paragraphs */
+  font-family: Roboto;
+  margin-top: 0px; /* Gets rid of naturally occurring margin on all paragraphs */
+  margin-bottom: 0px; 
+}
+
+.video-title{ /* .classes have more priority than p{ } or b{ } or ul {} etc */
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 5px; /* Removes margin that naturally occurs when using paragraphs */
+}
+
+.video-stats{
+  font-size: 14px;
+  height: 16px;
+  color: rgb(96, 96, 96); /* Remember you can right click, inspect */
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.video-author{
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.video-description{
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  width: 280px;
+  line-height: 22px;
+}
+
+.apple{
+  background-color: rgb(227, 65, 64);
+  color: white;
+  margin-top: 10px;
+  width: 500px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.span-example{
+  color: red;
+}
+
+.shop-link{
+  cursor: pointer;
+}
+
+.shop-link:hover{
+  text-decoration: underline;
+}

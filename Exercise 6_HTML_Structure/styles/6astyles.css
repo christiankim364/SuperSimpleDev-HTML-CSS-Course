@@ -1,0 +1,18 @@
+
+  .uber{ /*Using padding instead width/height*/
+    vertical-align: top;
+    background-color: black;
+    color: white;
+    border: none;
+    padding-left: 25px; 
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: 1s;
+    cursor: pointer;
+    
+  }
+  .uber:hover{
+    opacity: .5;
+  }
