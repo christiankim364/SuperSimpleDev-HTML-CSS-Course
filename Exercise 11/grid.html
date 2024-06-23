@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Practice</title>
+</head>
+<body style="padding-bottom: 1000px">
+  <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px;
+    ">
+    <div style="background-color: lightblue;">div 1<p>Hello</p></div>
+    <div style="background-color: lightyellow;">div 2<p>Hello</p></div>
+  </div>
+  
+  <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+    ">
+    <div style="background-color: lightblue;">div 1<p>Hello</p></div>
+    <div style="background-color: lightyellow;">div 2<p>Hello</p></div>
+    <div style="background-color: lightyellow;">div 2<p>Hello</p></div>
+  </div>
+
+  <div style="
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  ">
+  <div style="background-color: lightblue;">div 1<p>Hello</p></div>
+  <div style="background-color: lightyellow;">div 2<p>Hello</p></div>
+</div>
+
+<div style="
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 100px 1fr 2fr; /*1fr would be 1/3 and 2fr is 2/3 of remaining space*/ 
+  ">
+  <div style="background-color: lightblue;">div 1<p>Hello</p></div>
+  <div style="background-color: lightyellow;">div 2<p>Hello</p></div>
+  <div style="background-color: lightblue;">div 1<p>Hello</p></div>
+</div>
+
+<div style="
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /*Equal grids*/
+  height: 200px;
+  column-gap: 20px;
+  row-gap: 40px;
+  ">
+  <div style="background-color: lightblue;">div 1<p>Hello</p></div>
+  <div style="background-color: lightyellow;">div 2<p>Hello</p></div>
+  <div style="background-color: lightblue;">div 1<p>Hello</p></div>
+
+  <div style="background-color: lightyellow;">div 2<p>Hello</p></div>
+  <div style="background-color: lightblue;">div 1<p>Hello</p></div>
+  <div style="background-color: lightyellow;">div 2<p>Hello</p></div>
+
+</div>
+  
+  
+</body>
+</html>
